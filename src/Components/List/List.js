@@ -16,14 +16,15 @@ function List({ todo, todos, inputRef, checked, index, setTodos }) {
 
   return (
     <li key={todos.indexOf(todo)}>
+      <button onClick={() => deleteHandler(index)}>X</button>
       <p
         className={copy[index].checked ? 'checked' : ''}
         onClick={() => checkHandler(index)}
       >
       {/* ◻️ */}
-      🟣 {todo}
+      {/* 🟣 */}
+       {todo}
       </p>
-      <button onClick={() => deleteHandler(index)}>X</button>
     </li>
   );
 }

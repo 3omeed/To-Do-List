@@ -28,6 +28,7 @@ li p {
     padding: 5px 10px;
     overflow-wrap: break-word;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     transition: all 0.01s linear;
 }

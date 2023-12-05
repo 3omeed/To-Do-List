@@ -1,5 +1,4 @@
 import './App.css';
-import Box from './Components/Box/Box';
 import Input from './Components/Input/Input';
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
       <div className={'container'}>
         <h1>To-Do List</h1>
         <Input />
-        <Box />
       </div>
     </div>
   );
