@@ -70,7 +70,8 @@ li button {
         width: 50%;
     }
     li button {
-        width: 30%;
+        width: 50px;
+        margin-right: 10px;
     }
 
 }
