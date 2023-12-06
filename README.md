@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# To-Do List
 
 this is a simple To-Do List app made by react.js
 
@@ -27,7 +27,6 @@ To accomplish this project I should have - build a react app - style the main el
 ![desktop](./src/assets/Screenshot%20Desktop.png)
 ![desktop](./src/assets/Screenshot-%20desktop-actived.jpeg)
 ![mobile](./src/assets/screenshot-mobile.jpeg)
-
 
 ### Links
 
