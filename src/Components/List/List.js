@@ -15,10 +15,11 @@ function List({ todo, todos, inputRef, checked, index, setTodos }) {
   };
 
   return (
-    <li key={todos.indexOf(todo)}>
-      <button onClick={() => deleteHandler(index)}>X</button>
+    <li className='font-medium text-2 flex items-center justify-center text-secondary' key={todos.indexOf(todo)}>
+      <button className='text-accent font-bold flex items-center justify-center w-px md:w-10 my-1 px-2 py-1 border-2 rounded-lg border-accent hover:bg-accent hover:text-primary transition-all' onClick={() => deleteHandler(index)}>X</button>
       <p
-        className={copy[index].checked ? 'checked' : ''}
+        className={`${copy[index].checked ? 'checked font-medium' : 'font-medium'} focus:through text-md truncate mx-4 text-left p-0 sm:p-2 `}
+        
         onClick={() => checkHandler(index)}
       >
       {/* ◻️ */}

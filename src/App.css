@@ -1,44 +1,16 @@
-:root {
-  --primary: white;
-  --secondry: white;
-  --Accent: #7939ef;
-}
-.App {
-  text-align: center;
-  /* height: 100vh; */
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.container {
-  background-color: var(--secondry);
-  margin: 50px 0;
-  width: 40%;
-  height: auto;
-  min-height: 500px;
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 50px;
-  border: 3px solid var(--Accent);
-}
-@media screen and (max-width: 768px) {
-  .container {
-    width: 350px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .container {
-    width: 250px;
+@layer base {
+  :root {
+    --primary: white;
+    --secondary: black;
+    --Accent: #7939ef;
+    /* --Accent: blue; */
   }
 }
 
-.App {
-  background-color: var(--primary);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: var(--Accent);
-}
+
+
 
